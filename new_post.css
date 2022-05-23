@@ -1,0 +1,31 @@
+body{
+    font-family: Calibri, sans-serif;
+    background-image: url(images/index-backgroung-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-for-newpost{
+    margin: auto;
+    width: 60%;
+}
+
+#title-input-area{
+    width: 100%;
+    line-height: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#publish{
+    width: 100%;
+    background-color: darkslategrey;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+#publish:hover{
+    background-color: rgb(40, 68, 68);
+    cursor: pointer;
+}
